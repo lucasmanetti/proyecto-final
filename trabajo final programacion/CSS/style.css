@@ -1,0 +1,247 @@
+.cuerpo{
+    background-color:rgb(212, 213, 241);
+}
+
+.fondo {
+
+    background-color: slateblue;
+
+}
+
+
+
+.mi-header {
+    background-color:rgb(255, 147, 5);
+    display: flex;
+    position: relative;
+
+
+    
+    
+   
+}
+
+ .logo {
+    width: 15%;
+    
+    
+}
+
+.mi-header .logo img {
+    width: 120%;
+    border-radius: 100%;
+}
+
+.menu {
+    display: flex;
+    
+    align-items: center;
+}
+.a-menu {
+    position: relative;
+    right: 5px;
+    
+    top: 50px;
+   
+}
+
+
+.nombre {
+
+    position: relative;
+
+
+    width: 500px;
+
+    height: 15px;
+  
+    left: 22px ;
+
+    bottom: 95px;
+}
+#buscador {
+    position: relative;
+    left: 10px;
+    top: 30px;
+    border-radius: 5px;
+
+}
+
+.a-menu {
+    text-decoration: none;
+    color: rgb(2, 4, 5);
+    position: relative;
+    left: 10px;
+    top: 100px;
+    margin-left: 3px;
+    
+
+}
+
+.a-menu {
+    color: rgba(3, 0, 4, 0.647);
+    text-decoration: overline;
+
+}
+.mi-head {    background-color: rgb(255, 147, 5);
+
+}
+
+.fila-5{
+   
+    background-color: rgb(212, 213, 241);
+
+
+}
+.tractor {
+
+
+    width: 100%;
+    border-radius:5%;
+
+}
+#somos{
+  position: absolute;
+  left: 800px;
+  top: 400px;
+  font-size: x-large;
+
+}
+.t-prod{
+
+ background-color: rgb(212, 213, 241);
+    
+}
+#t{
+    text-align: center;
+
+}
+
+.fila-6{
+    background-color: rgb(255, 147, 5);
+}
+
+
+.padre-producto {
+
+    
+    background-color: rgb(255, 147, 5);
+    
+}
+.slide {
+    background-color:  rgb(255, 147, 5)
+
+
+}
+#productos {
+
+    
+    text-align: center;
+    
+
+}
+
+
+.articulo3 {
+    background-color: rgb(212, 213, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.formu-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ubicacion iframe {
+    width: 100%;
+}
+
+.mi-footer {
+    background-color: rgb(255, 147, 5);
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#ico {
+
+    width: 100px;
+    border-radius: 100%;
+
+
+}
+
+.whatsapp {
+
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 5em;
+    z-index: 2;
+    
+}
+
+@media(max-width: 426px) {
+    .a-menu {
+        text-decoration: none;
+        color: rgb(2, 4, 5);
+        position: relative;
+        left: 10px;
+        top: 70px;
+         
+    }
+    
+    #numbre {
+
+            position: relative;
+        
+            width: 10px;
+        
+            height: 5px;
+
+            top: 40px;
+            left: 5px;
+            
+        }
+        .logo {
+            width: 40%;
+        }
+    
+    
+    #buscador {
+        position: relative;
+        left: 2px;
+        top: 5px;
+        border-radius: 5px;
+    
+    }
+    
+    .mi-header #logo img {
+    
+        
+        width: 120%;
+        border-radius: 100%;
+    }
+
+ @media(min-width:768px) {
+
+       
+    #buscador {
+        position: relative;
+        left: 2px;
+        bottom:5px;
+        border-radius: 5px;
+    
+    
+
+
+    }
+    
+
+}
+}
